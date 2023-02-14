@@ -1,0 +1,14 @@
+{
+  "resourceName": "Stratego",
+  "tableName": "Stratego",
+  "partitionKey": {
+    "fieldName": "pk",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "sk",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

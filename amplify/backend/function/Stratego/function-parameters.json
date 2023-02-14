@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "Stratego": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

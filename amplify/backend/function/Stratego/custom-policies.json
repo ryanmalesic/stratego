@@ -1,0 +1,6 @@
+[
+  {
+    "Action": ["iot:Connect", "iot:Publish"],
+    "Resource": ["arn:aws:iot:us-west-2:686476863324:topic/games/*/moves"]
+  }
+]

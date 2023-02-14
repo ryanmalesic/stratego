@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stratego-dev-45431-authRole",
+      "UnauthRoleArn": "arn:aws:iam::686476863324:role/amplify-stratego-dev-45431-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::686476863324:role/amplify-stratego-dev-45431-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-stratego-dev-45431-deployment",
+      "UnauthRoleName": "amplify-stratego-dev-45431-unauthRole",
+      "StackName": "amplify-stratego-dev-45431",
+      "StackId": "arn:aws:cloudformation:us-west-2:686476863324:stack/amplify-stratego-dev-45431/833a27a0-a6a3-11ed-a208-022878d7b30f",
+      "AmplifyAppId": "d37rs5dlzmf3fw",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-stratego-dev-45431-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d37rs5dlzmf3fw",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "Stratego": {
+          "deploymentBucketName": "amplify-stratego-dev-45431-deployment",
+          "s3Key": "amplify-builds/Stratego-5057394b4a59636f7631-build.zip"
+        }
+      },
+      "auth": {
+        "stratego": {}
+      },
+      "storage": {
+        "Stratego": {}
+      },
+      "api": {
+        "Stratego": {}
+      }
+    }
+  }
+}
